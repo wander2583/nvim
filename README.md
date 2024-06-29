@@ -7,4 +7,5 @@
 
 ## Plugins
 
-(LazyVim!)[sei la...]
+- [ ] LazyVim
+- [ ] Alpha
