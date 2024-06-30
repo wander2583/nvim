@@ -7,5 +7,7 @@
 
 ## Plugins
 
+teste de precisão ficou muito bom...
+
 - [ ] LazyVim
-- [ ] Alpha
+- [x] Alpha
