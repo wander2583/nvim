@@ -44,6 +44,12 @@ keymap.set("n", "<C-S-l>", "<C-w>>")
 keymap.set("n", "<C-S-k>", "<C-w>+")
 keymap.set("n", "<C-S-j>", "<C-w>-")
 
+-- Keybindings to toggle spell checking
+keymap.set("n", "<leader>rs", ":set spell!<CR>", opts)
+keymap.set("n", "<leader>re", ":set spelllang=en_us<CR", opts)
+keymap.set("n", "<leader>rp", ":set spelllang=pt_br<CR>", opts)
+keymap.set("n", "<leader>rb", ":set spelllang=en_us,pt_br<CR>", opts)
+
 -- Markdown preview
 keymap.set("n", "<Leader>p", ":MarkdownPreview<Return>", opts)
 keymap.set("n", "<Leader>o", ":MarkdownPreviewStop<Return>", opts)
