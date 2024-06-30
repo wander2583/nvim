@@ -38,3 +38,7 @@ vim.opt.formatoptions:append({ "r" })
 -- Undercurl
 vim.cmd([[let &t_Cs = "\e[60m"]])
 vim.cmd([[let &t_Ce = "\e[24m"]])
+
+-- Set up spell checking
+vim.opt.spell = true
+vim.opt.spelllang = { "en_us", "pt_br" }
