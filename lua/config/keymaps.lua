@@ -44,6 +44,11 @@ keymap.set("n", "<C-S-l>", "<C-w>>")
 keymap.set("n", "<C-S-k>", "<C-w>+")
 keymap.set("n", "<C-S-j>", "<C-w>-")
 
+-- Markdown preview
+keymap.set("n", "<Leader>p", ":MarkdownPreview<Return>", opts)
+keymap.set("n", "<Leader>o", ":MarkdownPreviewStop<Return>", opts)
+keymap.set("n", "<Leader>mpt", ":MarkdownPreviewToggle<Return>", opts)
+
 -- Diagnostics
 keymap.set("n", "<C-j>", function()
   vim.diagnostic.goto_next()
