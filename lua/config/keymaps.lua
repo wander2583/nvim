@@ -55,6 +55,11 @@ keymap.set("n", "<Leader>p", ":MarkdownPreview<Return>", opts)
 keymap.set("n", "<Leader>o", ":MarkdownPreviewStop<Return>", opts)
 keymap.set("n", "<Leader>mpt", ":MarkdownPreviewToggle<Return>", opts)
 
+-- Obsidian
+keymap.set("n", "gf", function()
+  return require("obsidian").util.gf_passthrough()
+end, opts)
+
 -- Diagnostics
 keymap.set("n", "<C-j>", function()
   vim.diagnostic.goto_next()
