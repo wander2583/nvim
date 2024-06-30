@@ -41,4 +41,4 @@ vim.cmd([[let &t_Ce = "\e[24m"]])
 
 -- Set up spell checking
 vim.opt.spell = true
-vim.opt.spelllang = { "en_us", "pt_br" }
+vim.opt.spelllang = { "en", "pt" }
