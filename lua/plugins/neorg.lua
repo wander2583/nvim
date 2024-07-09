@@ -21,7 +21,7 @@ return {
         ["core.keybinds"] = {
           config = {
             default_keybinds = true,
-            neorg_leader = "<Leader>o",
+            neorg_leader = "<Leader>no",
           },
         },
         ["core.norg.completion"] = {
