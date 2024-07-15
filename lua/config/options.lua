@@ -1,3 +1,5 @@
+vim.g.python3_host_prog = "/usr/bin/python3"
+
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
@@ -38,6 +40,10 @@ vim.opt.formatoptions:append({ "r" })
 -- Undercurl
 vim.cmd([[let &t_Cs = "\e[60m"]])
 vim.cmd([[let &t_Ce = "\e[24m"]])
+
+-- -- Suporte ao Italic
+-- vim.cmd([[let &t_ZH = "\e[3m"]])
+-- vim.cmd([[let &t_ZR = "\e[23m"]])
 
 -- Set up spell checking
 vim.opt.spell = true
